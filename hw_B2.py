@@ -1,4 +1,4 @@
-with open('rosalind_rna.txt', 'r') as file:
+with open('rosalind_revc.txt', 'r') as file:
     s = file.read()
 def revc(s):
     s = s.replace("A", "t")
